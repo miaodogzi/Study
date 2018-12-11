@@ -5,4 +5,17 @@
 	这一步可以替换成自己要执行的命令，例如：
 	bitsadmin.exe /SetNotifyCmdLine backdoor "%COMSPEC%" "cmd.exe /c regedit.exe"
 	4.bitsadmin /Resume backdoor
-#2.
+#2.shodan country
+	1.中国 cn
+	2.美国 us
+	3.德国 de
+	4.爱尔兰 ie
+	5.加拿大 ca
+	6.印度尼西亚 id
+	7.捷克共和国 cz
+	8.俄罗斯 ru
+	9.土耳其 dr
+	10.韩国 kr
+	11.日本 jp
+	12.越南 vn
+	13.印度 in
